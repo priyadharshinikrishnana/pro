@@ -1,8 +1,8 @@
 priya = int(input())
 a=[]
 for i in range(0,priya):
- wan=input()
- a.append(wan)
+ zan=input()
+ a.append(zan)
 apple=[]
 for i in zip(*a):
  if(i.count(i[0])==len(i)):
