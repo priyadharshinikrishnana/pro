@@ -5,7 +5,7 @@ for i in range(0,priya):
  a.append(wan)
 apple=[]
 for i in zip(*a):
- if(i.count(i[0])==wan(i)):
+ if(i.count(i[0])==len(i)):
   apple.append(i[0])
  
  else:
