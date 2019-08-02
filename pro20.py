@@ -1,7 +1,7 @@
 priya,viji=map(int,input().split())
-msd=list(map(int,input().split()))
-asd.sort()
-asd.reverse()
+kkk=list(map(int,input().split()))
+kkk.sort()
+kkk.reverse()
 a=viji
 ooo=0
 for i in msd:
