@@ -1,5 +1,5 @@
-and=int(input())
-if and%2==0:
-    print(and*(and//2)-(and//2))
+asdf=int(input())
+if asdf%2==0:
+    print(asdf*(asdf//2)-(asdf//2))
 else:
-    print(and*(and//2))
+    print(asdf*(asdf//2))
