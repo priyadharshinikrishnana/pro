@@ -1,9 +1,9 @@
 priya=int(input())
-mom=list(map(int,input().split()))
+vijik=list(map(int,input().split()))
 asd=int(priya/2)
-ooo=mom[:asd]
-vvv=mom[asd::]
-if ((sum(ooo)//len(ooo)==(sum(vvv)//len(vvv)):
+ran=vijik[:asd]
+man=vijik[asd::]
+if ((sum(ran)//len(ran))==(sum(man)//len(man))):
     print("yes")
 else:
     print("no")
