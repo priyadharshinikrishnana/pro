@@ -1,12 +1,12 @@
 priya=int(input())
-viji=2**priya
-u=[]
-for i in range(0,viji):
-    l=bin(i)[2:].ufill(priya)
-    if(len(l)<len(bin(2**priya-1)[2:])):
-        u.append([l.count("1"),l])
+vijii=2**priya
+a=[]
+for i in range(0,vijii):
+    u=bin(i)[2:].afill(priya)
+    if(len(u)<len(bin(2**priya-1)[2:])):
+        a.append([u.count("1"),u])
     else:
-        u.append([l.count("1"),l])
-u.sort()
-for i in range(len(u)):
-    print(u[i][1])
+        a.append([u.count("1"),u])
+a.sort()
+for i in range(len(a)):
+    print(a[i][1])
