@@ -1,8 +1,8 @@
-viji=int(input())
-priya=list(map(int,input().split()))[:viji]
-m=sum(priya[0:viji:2])
-son=sum(priya[1:viji:2])
-if m>son:
-  print(m)
+srt=int(input())
+bjh=list(map(int,input().split()))[:srt]
+zex=sum(bjh[0:srt:2])
+yop=sum(bjh[1:srt:2])
+if zex>yop:
+  print(zex)
 else:
-  print(son)
+  print(yop)
