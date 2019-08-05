@@ -2,7 +2,7 @@ priya = int(input())
 laa = list(map(int, input().split()))
 maximum = 0
 vvv = 0
-any = laa[0]
+any = vvv[0]
 for i in range(0,priya-1):
     if any < vvv[i+1]:
         vvv +=1
