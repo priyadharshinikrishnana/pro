@@ -1,6 +1,6 @@
 ammu=int(input())
 vpv=input().split()
-ks=[]
+vv=[]
 for i in range(ammu):
     vijii=vpv[i]
     for j in range(i+1,ammu):
@@ -8,5 +8,5 @@ for i in range(ammu):
             vijii+=vpv[j]
         else:
             break
-    ss.append(len(vijii))
-print(max(ks))
+    vv.append(len(vijii))
+print(max(vv))
