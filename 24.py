@@ -1,12 +1,12 @@
-priya=int(input())
-subha=2**priya
-v=[]
-for i in range(0,subha):
-    p=bin(i)[2:].vfill(priya)
-    if(len(p)<len(bin(2**priya-1)[2:])):
-        v.append([p.count("1"),l])
+bh=int(input())
+mah=2**bh
+z=[]
+for i in range(0,mah):
+    l=bin(i)[2:].zfill(bh)
+    if(len(l)<len(bin(2**bh-1)[2:])):
+        z.append([l.count("1"),l])
     else:
-        v.append([p.count("1"),l])
-v.sort()
-for i in range(len(v)):
-    print(v[i][1])
+        z.append([l.count("1"),l])
+z.sort()
+for i in range(len(z)):
+    print(z[i][1])
