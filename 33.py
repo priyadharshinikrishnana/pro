@@ -1,12 +1,12 @@
-priya=input()
+vijiammu=input()
 fish=0
-for i in range(0,len(priya)-1):
-  for j in range(i+1,len(priya)):
-    if priya[i]<priya[j]:
+for i in range(0,len(vijiammu)-1):
+  for j in range(i+1,len(vijiammu)):
+    if vijiammu[i]<vijiammu[j]:
       fish=1
-      print(bhpriya[j:])
+      print(vijiammu[j:])
       break
   if fish==1:
     break
 else:
-  print(priya)
+  print(vijiammu)
