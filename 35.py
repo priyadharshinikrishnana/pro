@@ -2,20 +2,20 @@ priya=input()
 55=list(set(priya))
 hhh=1
 viji=0
-check=False
+cooo=False
 while True:
     ch=55[viji]
     for y in range(0,len(priya)-hhh):
         if ch in priya[y:y+hhh]:
-            check=True
+            cooo=True
         else:
-            check=False
+            cooo=False
             viji=viji+1
             if viji>=len(55):
              viji=0
              hhh=hhh+1
             break
 
-    if check==True:
+    if cooo==True:
         break
 print(hhh)
