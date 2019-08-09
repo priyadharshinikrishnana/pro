@@ -1,11 +1,11 @@
-priyaa,l1=map(str,input().split())
-vijii=0
-if len(priyaa)>len(l1):
-  priyaa,l1=l1,priyaa
-vp1=0
-while vp1<len(priyaa):
-  vijii+=(ord(l1vp1])-ord(priyaa[vp1]))
-  vp1+=1
-for vp1 in range(vp1,len(l1)):
-  vijii+=ord(l1[vp1])-ord('a')+1
-print(vijii)
+priya,l1=map(str,input().split())
+viji=0
+if len(priya)>len(l1):
+  priya,l1=l1,priya
+pt1=0
+while pt1<len(priya):
+  viji+=(ord(l1[pt1])-ord(vizh[pt1]))
+  pt1+=1
+for pt1 in range(pt1,len(l1)):
+  viji+=ord(l1[pt1])-ord('a')+1
+print(viji)
