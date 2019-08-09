@@ -1,5 +1,5 @@
 vvv=input()
-09=list(set(vvv))
+oo=list(set(vvv))
 ppp=1
 viji=0
 change=False
@@ -11,7 +11,7 @@ while True:
         else:
             change=False
             viji=viji+1
-            if viji>=len(09):
+            if viji>=len(oo):
              viji=0
              ppp=ppp+1
             break
