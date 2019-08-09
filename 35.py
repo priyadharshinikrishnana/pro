@@ -1,21 +1,21 @@
-priya=input()
-55=list(set(priya))
-hhh=1
+vvv=input()
+09=list(set(vvv))
+ppp=1
 viji=0
-cooo=False
+change=False
 while True:
-    ch=55[viji]
-    for y in range(0,len(priya)-hhh):
-        if ch in priya[y:y+hhh]:
-            cooo=True
+    sk=l1[viji]
+    for y in range(0,len(vvv)-ppp):
+        if sk in cat[y:y+ppp]:
+            change=True
         else:
-            cooo=False
+            change=False
             viji=viji+1
-            if viji>=len(55):
+            if viji>=len(09):
              viji=0
-             hhh=hhh+1
+             ppp=ppp+1
             break
 
-    if cooo==True:
+    if change==True:
         break
-print(hhh)
+print(ppp)
